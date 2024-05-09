@@ -1,0 +1,37 @@
+
+.nav{
+    position: relative;
+    border: 2px solid black;
+    background-color: aqua;
+    height: 50px;
+    width: 100%;  
+}
+
+#showmwnuButton{
+    position: fixed;
+    border-radius: 2px ;
+    padding:2px;
+    right: 10px;
+}
+.sidebar {
+    position: absolute;
+    top: 0;
+    left: -250px;
+    width: 150px;
+    background: #a58b8b;
+    transition: left 0.3s ease;
+    display: grid;
+    padding: 15px ;
+    gap: 25px;
+    height: max-content;
+    border: 1px solid black;
+}
+.sidebar a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar.show {
+    left: 0; 
+}
+
+
